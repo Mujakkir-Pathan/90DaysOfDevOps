@@ -94,6 +94,7 @@ move(){
    ![snapshot](images/output2.png)
    
    [Here is the report file generated. ](archive/log_report_2026-02-14-01-21.txt)
+   
 ---
 
 ## What I learned
