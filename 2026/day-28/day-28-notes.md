@@ -120,10 +120,10 @@ Answer these from memory (no Googling). Then verify your answers:
 ---
 
 ### Task 4: Organize Your Work
-1. Make sure all your daily submissions (day-1 through day-27) are committed and pushed [x]
-2. Check that your `git-commands.md` is up to date[x]
-3. Check that your shell scripting cheat sheet is complete [x]
-4. Verify your GitHub profile and repos are clean (from Day 27) [x]
+1. [x] Make sure all your daily submissions (day-1 through day-27) are committed and pushed 
+2. [x] Check that your `git-commands.md` is up to date
+3. [x] Check that your shell scripting cheat sheet is complete 
+4. [x] Verify your GitHub profile and repos are clean (from Day 27) 
 
 ---
 
