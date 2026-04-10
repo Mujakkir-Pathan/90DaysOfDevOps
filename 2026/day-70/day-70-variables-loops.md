@@ -390,12 +390,15 @@ Run it and verify the report file is created on each server.
 **Verify:** SSH into a server and read `/tmp/server-report-*.txt`. Does it contain accurate information? **YES**
 
    - **app server**
+
    ![snapshot](images/app.png)
 
    - **db server**
+
    ![snapshot](images/db.png)
 
    - **web serve**
+   
    ![snapshot](images/web.png)
 
 ---
