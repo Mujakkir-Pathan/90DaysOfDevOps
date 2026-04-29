@@ -54,6 +54,8 @@ brew install ollama
 curl -fsSL https://ollama.com/install.sh | sh
 ```
 
+   ![snapshot](images/2-a.png)
+
 Start Ollama and pull the Gemma 4 model:
 ```bash
 ollama serve &
