@@ -78,7 +78,7 @@ A group is a collection of users who share access to files and directories accor
 
 ### Screenshot
 
-![Task 1 Screenshot](images/task1.png)
+![Task 1 Screenshot](screenshot/Home.png)
 
 ---
 
