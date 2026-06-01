@@ -51,6 +51,7 @@ cp notes.txt backup-notes.txt
 - `chmod` changes file permissions for users, groups, and others.
 - `cp` creates a duplicate file while preserving the original.
 
+![Screenshot](screenshot/t3.png)
 ---
 
 ### 4. Cheat Sheet Refresh
@@ -94,7 +95,7 @@ ls -l devops-file.txt
 - Verified ownership changes using `ls -l`.
 - Understood the relationship between users, groups, and file ownership.
 
----
+![Screenshot](screenshot/t5.png)---
 
 ## Mini Self-Check
 
