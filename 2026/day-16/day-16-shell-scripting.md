@@ -81,7 +81,7 @@ The shebang (`#!/bin/bash`) tells Linux which interpreter should execute the scr
 
 ### Output
 
-![snapshot](screenshot/tast5.png)
+![snapshot](screenshot/task5.png)
 
 ## Key Learnings
 
