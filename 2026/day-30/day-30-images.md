@@ -72,24 +72,13 @@ Layers such as ENV, CMD, ENTRYPOINT, LABEL, and EXPOSE only modify metadata and 
 
 The following lifecycle operations were performed:
 
-### Screenshot 5: Created State
+### 5: Created State
+### 6: Running State
+### 7: Paused State
+### 8: Exited State
+### 9: Removed Container
 
-
-### Screenshot 6: Running State
-
-[Insert Screenshot Here]
-
-### Screenshot 7: Paused State
-
-[Insert Screenshot Here]
-
-### Screenshot 8: Exited State
-
-[Insert Screenshot Here]
-
-### Screenshot 9: Removed Container
-
-[Insert Screenshot Here]
+![screnshot](screenshots/task3.png)
 
 ---
 
