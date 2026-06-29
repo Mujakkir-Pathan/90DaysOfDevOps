@@ -55,11 +55,11 @@ description: >
 
 ### Concepts Covered
       
-| Block Style | Purpose |
-|-------------|---------|
-| `|`         | Preserves line breaks exactly as written. Ideal for shell scripts and configuration files. |
-| `>`         | Folds multiple lines into a single line. Useful for long descriptions and documentation. |
- 
+| Block Style | Name | Purpose |
+|-------------|------|---------|
+| `\|` | Literal Block Scalar | Preserves line breaks exactly as written. Ideal for shell scripts and configuration files. |
+| `>` | Folded Block Scalar | Folds multiple lines into a single line. Useful for long descriptions and documentation. |
+
 ---
 
 # YAML Validation
