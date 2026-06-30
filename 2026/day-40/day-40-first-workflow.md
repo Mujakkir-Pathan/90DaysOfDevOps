@@ -41,7 +41,7 @@ After pushing the workflow:
 
 This was my first successful GitHub Actions pipeline.
 
-[snapshot](screenshots/task2.png)
+![snapshot](screenshots/task2.png)
 
 ---
 
@@ -94,7 +94,7 @@ Committed the changes and pushed them again.
 
 Verified that all the new steps executed successfully.
 
-[snapshot](screenshots/task4.png)
+![snapshot](screenshots/task4.png)
 
 ---
 
@@ -114,10 +114,10 @@ Committed and pushed the changes again.
 
 Verified that the workflow completed successfully and returned to a green status.
 
-[snapshot](screenshots/task5.1.png)
+![snapshot](screenshots/task5.1.png)
 
 
-[snapshot](screenshots/task5.3.png)
+![snapshot](screenshots/task5.3.png)
 
 
 ---
