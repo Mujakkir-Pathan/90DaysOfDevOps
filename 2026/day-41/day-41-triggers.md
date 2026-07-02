@@ -6,9 +6,9 @@ Your pipeline runs on push. Today you learn **every way to trigger a workflow** 
 ---
 
 final files: 
-     [pr-check.yml file](https://github.com/Mujakkir-Pathan/github-actions-practice/blob/main/.github/workflows/pr-check.yml)
-     [manual.yml file](https://github.com/Mujakkir-Pathan/github-actions-practice/blob/main/.github/workflows/manual.yml)
-     [matrix.yml file](https://github.com/Mujakkir-Pathan/github-actions-practice/blob/main/.github/workflows/matrix.yml)
+    1 . [pr-check.yml file](https://github.com/Mujakkir-Pathan/github-actions-practice/blob/main/.github/workflows/pr-check.yml)
+    2 . [manual.yml file](https://github.com/Mujakkir-Pathan/github-actions-practice/blob/main/.github/workflows/manual.yml)
+    3 . [matrix.yml file](https://github.com/Mujakkir-Pathan/github-actions-practice/blob/main/.github/workflows/matrix.yml)
 
 ---
 
