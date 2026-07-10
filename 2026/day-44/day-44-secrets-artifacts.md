@@ -1,4 +1,4 @@
-# Day 45 – Secrets, Artifacts, Real CI Testing & Caching
+# Day 44 – Secrets, Artifacts, Real CI Testing & Caching
 
 ## Overview
 
