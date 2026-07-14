@@ -26,9 +26,7 @@ Today I built a complete CI/CD pipeline using GitHub Actions that automatically 
 - Checked out the repository.
 - Built separate Docker images for the frontend and backend applications.
 
-## Verification
-
-- Verified that both Docker images were built successfully in GitHub Actions.
+[docker-publish.yml]https://github.com/Mujakkir-Pathan/github-actions-practice/blob/main/.github/workflows/docker-publish.yml()
 
 ![screenshot](screenshots/task2.png)
 
@@ -89,6 +87,10 @@ Today I built a complete CI/CD pipeline using GitHub Actions that automatically 
 
 - Pulled the Docker images from Docker Hub.
 - Ran the Docker images successfully.
+
+[dockerhub link](https://hub.docker.com/repositories/mujakkirpathan)
+
+![screenshot](screenshots/task5.png)
 
 ### Full Journey
 
