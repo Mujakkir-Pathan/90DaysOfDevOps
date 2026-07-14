@@ -26,7 +26,7 @@ Today I built a complete CI/CD pipeline using GitHub Actions that automatically 
 - Checked out the repository.
 - Built separate Docker images for the frontend and backend applications.
 
-[docker-publish.yml]https://github.com/Mujakkir-Pathan/github-actions-practice/blob/main/.github/workflows/docker-publish.yml()
+[docker-publish.yml](https://github.com/Mujakkir-Pathan/github-actions-practice/blob/main/.github/workflows/docker-publish.yml)
 
 ![screenshot](screenshots/task2.png)
 
