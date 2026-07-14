@@ -90,7 +90,6 @@ Today I built a complete CI/CD pipeline using GitHub Actions that automatically 
 
 [dockerhub link](https://hub.docker.com/repositories/mujakkirpathan)
 
-![screenshot](screenshots/task5.png)
 
 ### Full Journey
 
