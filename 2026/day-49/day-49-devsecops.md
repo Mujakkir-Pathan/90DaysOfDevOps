@@ -112,26 +112,42 @@ A compromised action could modify source code, push malicious commits, create re
 
 ## Task 5: See the Full Secure Pipeline
 
-```text
-Pull Request
-    │
-    ├── Build & Test
-    ├── Dependency Review
-    └── PR Checks
+                    Pull Request
+                         │
+          ┌──────────────┴──────────────┐
+          │                             │
+          ▼                             ▼
+     Build & Test              Dependency Review
+          │                             │
+          └──────────────┬──────────────┘
+                         ▼
+                  PR Comment / Checks
+                         │
+                    Merge to main
+                         │
+                         ▼
+                  Build & Test
+                         │
+                         ▼
+                   Prepare SHA
+                         │
+                         ▼
+            Build Docker Images
+                         │
+                         ▼
+          Trivy Security Scan
+       (Frontend & Backend Images)
+                         │
+              Pass? ─────┴───── No
+               │               │
+              Yes              ▼
+               │         Pipeline Fails
+               ▼
+          Deploy to Production
 
-Merge to main
-    │
-    ├── Build & Test
-    ├── Docker Build
-    ├── Trivy Image Scan
-    ├── Docker Push
-    └── Deploy
-
-Repository Security
-    ├── Secret Scanning
-    └── Push Protection
-```
-
+Repository Protection
+├── Secret Scanning
+└── Push Protection
 ---
 
 ## Brownie Points (Optional — For the Curious)
