@@ -29,6 +29,10 @@ DevSecOps integrates automated security checks into the CI/CD pipeline so vulner
 - Applied the principle of least privilege by limiting workflow permissions.
 
 ---
+## Capstone Project link
+
+[devboard app](https://github.com/Mujakkir-Pathan/github-actions-capstone)
+---
 
 # Challenge Tasks
 
@@ -143,3 +147,14 @@ Configured Trivy to generate SARIF output and explored uploading scan results to
 ### Learn About OIDC (Keyless Authentication)
 
 Learned how GitHub Actions can use OpenID Connect (OIDC) to obtain short-lived cloud credentials instead of storing long-lived secrets, providing a more secure authentication approach.
+
+---
+
+## Full PR Pipeline
+
+   ![snapshot](screenshots/pr_pipeline.png)
+
+## Full Main Pipeline
+
+   ![snapshot](screenshots/main_pipeline.png)
+
