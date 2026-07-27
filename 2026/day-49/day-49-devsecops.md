@@ -59,6 +59,8 @@ Yes. The vulnerability scan appeared in the workflow logs and failed when a crit
 - Enabled GitHub Secret Scanning.
 - Enabled Push Protection.
 
+![snapshot](screenshots/task2.png)
+
 ### Write in your notes
 
 **What is the difference between secret scanning and push protection?**
@@ -76,6 +78,8 @@ GitHub detects the leaked key, generates a security alert, and Push Protection b
 - Added the Dependency Review Action to the Pull Request workflow.
 - Configured the workflow to fail on critical dependency vulnerabilities.
 - Verified the dependency review job executed successfully during a Pull Request.
+
+![snapshot](screenshots/task3.png)
 
 ### Verify
 
