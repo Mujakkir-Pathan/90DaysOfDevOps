@@ -199,3 +199,77 @@ Verified that all application resources were removed successfully.
 
 Yes. All created Pods and Services were deleted successfully. Only the default `kubernetes` Service remained.
 
+
+---
+
+## What problem Services solve and how they relate to Pods and Deployments
+
+Services provide a stable network endpoint for applications running in Kubernetes. Since Pod IP addresses change whenever Pods are recreated, a Service offers a permanent IP address and DNS name that clients can use. A Deployment manages multiple Pods, and a Service routes traffic to all healthy Pods created by that Deployment using label selectors.
+
+---
+
+## Your three Service manifests with an explanation of each type
+
+### ClusterIP Service
+
+Exposed the application only inside the Kubernetes cluster. Used for communication between applications running within the cluster.
+
+### NodePort Service
+
+Exposed the application on a port of every Kubernetes node, allowing external access using `<NodeIP>:<NodePort>`. Suitable for development and testing.
+
+### LoadBalancer Service
+
+Created a cloud-style external Service. On the local Kind cluster, the `EXTERNAL-IP` remained `<pending>` because no cloud provider was available to provision a load balancer.
+
+---
+
+## The difference between ClusterIP, NodePort, and LoadBalancer
+
+| Service Type | Accessible From                     | Primary Use                                  |
+| ------------ | ----------------------------------- | -------------------------------------------- |
+| ClusterIP    | Inside the cluster                  | Internal communication between applications  |
+| NodePort     | Outside using `<NodeIP>:<NodePort>` | Development, testing, and direct node access |
+| LoadBalancer | Outside using a cloud load balancer | Production workloads in cloud environments   |
+
+---
+
+## How Kubernetes DNS works for Service discovery
+
+Every Service automatically receives a DNS entry in the format:
+
+```id="m4c0j4"
+<service-name>.<namespace>.svc.cluster.local
+```
+
+Applications in the same namespace can communicate using the short Service name, while applications in different namespaces can use the fully qualified DNS name. Kubernetes DNS resolves both names to the Service's stable ClusterIP.
+
+---
+
+## What Endpoints are and how to inspect them
+
+Endpoints represent the Pod IP addresses that a Service currently routes traffic to. Kubernetes automatically updates the Endpoints whenever Pods are created, deleted, or replaced.
+
+They can be inspected using:
+
+```id="a9r1ux"
+kubectl describe service <service-name>
+```
+
+or
+
+```id="x54yfe"
+kubectl get endpoints <service-name>
+```
+
+---
+
+## Screenshot of your Services and the test output
+
+Attached:
+
+* Screenshot of `kubectl get services`
+* Screenshot showing successful ClusterIP communication from the BusyBox test Pod
+* Screenshot showing successful NodePort access
+* Screenshot of `kubectl describe service web-app-loadbalancer`
+
