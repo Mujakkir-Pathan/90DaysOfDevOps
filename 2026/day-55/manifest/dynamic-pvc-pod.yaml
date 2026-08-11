@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: dynamic-pvc-pod
+spec:
+  containers:
+    - name: writer
+      image: busybox:latest
+      command:
+        - /bin/sh
+        - -c
+        - |
+          echo "Data written to dynamic PVC at $(date)" >> /data/message.txt
+          sleep 3600
+      volumeMounts:
+        - name: dynamic-storage
+          mountPath: /data
+  volumes:
+    - name: dynamic-storage
+      persistentVolumeClaim:
+        claimName: dynamic-pvc

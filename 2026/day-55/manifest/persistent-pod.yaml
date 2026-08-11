@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: persistent-pod
+spec:
+  containers:
+    - name: writer
+      image: busybox:latest
+      command:
+        - /bin/sh
+        - -c
+        - |
+          echo "Data written by first Pod at $(date)" >> /data/message.txt
+          sleep 3600
+      volumeMounts:
+        - name: persistent-storage
+          mountPath: /data
+  volumes:
+    - name: persistent-storage
+      persistentVolumeClaim:
+        claimName: manual-pvc
