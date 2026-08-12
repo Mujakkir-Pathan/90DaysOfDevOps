@@ -179,6 +179,8 @@ This allows each Pod to retain its own data when the Pod is deleted and recreate
 
 ### Screenshots
 
+## added above
+
 * **Pods:** `web-0`, `web-1`, and `web-2` showing stable Pod names.
 * **PVCs:** Individual PVCs created for each StatefulSet replica.
 * **DNS resolution:** Successful `nslookup` results for `web-0`, `web-1`, and `web-2`, with resolved IPs matching the Pod IPs.
