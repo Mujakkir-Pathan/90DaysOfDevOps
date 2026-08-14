@@ -304,7 +304,6 @@ HPA needs these metrics to compare the application's current resource usage with
 
 For example:
 
-```text
 Current CPU utilization = 100%
 Target CPU utilization  = 50%
 
