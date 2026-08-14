@@ -4,9 +4,6 @@
 
 Yesterday, resource requests and limits were configured. Today, they were put to work by installing the Metrics Server so Kubernetes could see actual resource usage and configuring a Horizontal Pod Autoscaler (HPA) to automatically scale the application under load.
 
----
-
-## Expected Output
 
 ---
 
