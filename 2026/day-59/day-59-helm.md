@@ -7,7 +7,7 @@ Completed the Helm task by installing Helm, deploying and customizing a Bitnami 
 ---
  
 ## All Screenshots are here 
-![Proof of work](screenshots/)
+[Proof of work](screenshots/)
  
 ---
 
