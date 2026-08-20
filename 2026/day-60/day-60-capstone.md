@@ -6,6 +6,11 @@ Completed the Kubernetes capstone by deploying a real WordPress + MySQL applicat
 
 ---
 
+### [ capstone Project URL ](https://github.com/Mujakkir-Pathan/k8s_capstone) 
+### [ All screenshots ]()
+
+---
+
 ## Challenge Tasks
 
 ### Task 1: Create the Namespace (Day 52)
@@ -178,31 +183,31 @@ The Kubernetes context was also successfully reset to `default`.
                     │   capstone Namespace     │
                     │                          │
                     │  ┌────────────────────┐  │
-                    │  │ WordPress Service   │  │
-                    │  │ NodePort :30080     │  │
+                    │  │ WordPress Service  │  │
+                    │  │ NodePort :30080    │  │
                     │  └─────────┬──────────┘  │
-                    │            │              │
-                    │     ┌──────┴──────┐       │
-                    │     │             │       │
-                    │  WordPress     WordPress  │
-                    │    Pod           Pod      │
-                    │     │             │       │
-                    │     └──────┬──────┘       │
-                    │            │              │
-                    │      Deployment           │
-                    │        (2 replicas)       │
-                    │            │              │
-                    │            ▼              │
-                    │   MySQL Headless Service  │
-                    │        :3306              │
-                    │            │              │
-                    │            ▼              │
-                    │        mysql-0             │
-                    │     MySQL StatefulSet      │
-                    │            │              │
-                    │            ▼              │
-                    │       MySQL PVC            │
-                    │         1Gi                │
+                    │            │             │
+                    │     ┌──────┴──────┐      │
+                    │     │             │      │
+                    │  WordPress     WordPress │
+                    │    Pod           Pod     │
+                    │     │             │      │
+                    │     └──────┬──────┘      │
+                    │            │             │
+                    │      Deployment          │
+                    │        (2 replicas)      │
+                    │            │             │
+                    │            ▼             │
+                    │   MySQL Headless Service │
+                    │        :3306             │
+                    │            │             │
+                    │            ▼             │
+                    │        mysql-0           │
+                    │     MySQL StatefulSet    │
+                    │            │             │
+                    │            ▼             │
+                    │       MySQL PVC          │
+                    │         1Gi              │
                     │                          │
                     │  ConfigMap ──► WordPress │
                     │  Secret ─────► MySQL + WP│
