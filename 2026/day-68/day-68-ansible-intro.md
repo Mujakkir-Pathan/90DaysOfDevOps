@@ -6,7 +6,7 @@ Terraform provisions infrastructure. Ansible was used for post-provision configu
 
 ---
 
-## All tf files
+## All ansible playbooks
 
 [ansible playbooks files](https://github.com/Mujakkir-Pathan/ansible-playbooks/tree/main/day-1)
 
