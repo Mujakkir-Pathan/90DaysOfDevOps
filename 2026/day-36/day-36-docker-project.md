@@ -19,7 +19,7 @@ Dockerize a real-world application by creating Dockerfiles, Docker Compose confi
 * Used the DevBoard project.
 * Removed the existing Docker configuration and created my own.
 
-[https://github.com/Mujakkir-Pathan/devboard-me](https://github.com/Mujakkir-Pathan/devboard-me)
+[https://github.com/Mujakkir-Pathan/devboard](https://github.com/Mujakkir-Pathan/devboard)
 
 ###  Task 2: Dockerfile
 
@@ -29,9 +29,9 @@ Dockerize a real-world application by creating Dockerfiles, Docker Compose confi
 * Added `.dockerignore` files.
 * Built and tested the Docker images.
 
-[https://github.com/Mujakkir-Pathan/devboard-me/blob/main/frontend/Dockerfile](https://github.com/Mujakkir-Pathan/devboard-me/blob/main/frontend/Dockerfile)
+[https://github.com/Mujakkir-Pathan/devboard/blob/main/frontend/Dockerfile](https://github.com/Mujakkir-Pathan/devboard/blob/main/frontend/Dockerfile)
 
-[https://github.com/Mujakkir-Pathan/devboard-me/blob/main/backend/Dockerfile](https://github.com/Mujakkir-Pathan/devboard-me/blob/main/backend/Dockerfile)
+[https://github.com/Mujakkir-Pathan/devboard/blob/main/backend/Dockerfile](https://github.com/Mujakkir-Pathan/devboard/blob/main/backend/Dockerfile)
 
 ###  Task 3: Docker Compose
 
@@ -45,7 +45,7 @@ Created a `docker-compose.yml` with:
 * Environment variables using `.env`
 * Database healthcheck
 
-[https://github.com/Mujakkir-Pathan/devboard-me/blob/main/docker-compose.yml](https://github.com/Mujakkir-Pathan/devboard-me/blob/main/docker-compose.yml)
+[https://github.com/Mujakkir-Pathan/devboard/blob/main/docker-compose.yml](https://github.com/Mujakkir-Pathan/devboard/blob/main/docker-compose.yml)
 
 ###  Task 4: Ship It
 
